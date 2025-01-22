@@ -1,0 +1,123 @@
+/* Global Reset and Basic Styling */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: 'Roboto', sans-serif;
+ line-height: 1.6;
+ background-color: #f8f8f8;
+ color: #333;
+ padding: 0;
+}
+/* Header Styling */
+header {
+ background-color: #004d99;
+ color: #f;
+ padding: 20px 0;
+ text-align: center;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+ font-size: 2.5em;
+ margin-boom: 10px;
+}
+header p {
+ font-size: 1.2em;
+}
+/* Navigaon Styling */
+nav {
+ background-color: #333;
+ padding: 10px 0;
+}
+nav ul {
+ list-style: none;
+ text-align: center;
+}
+nav ul li {
+ display: inline;
+ margin: 0 15px;
+}
+nav ul li a {
+ color: #f;
+ text-decoraon: none;
+ font-size: 1.1em;
+ padding: 8px 15px;
+ border-radius: 5px;
+ transion: background-color 0.3s ease;
+}
+nav ul li a:hover {
+ background-color: #004d99;
+}
+/* Main Content Styling */
+main {
+ margin: 30px auto;
+ max-width: 900px;
+ padding: 20px;
+}
+secon {
+ margin-boom: 40px;
+ background-color: #f;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+secon h2 {
+ color: #004d99;
+ margin-boom: 15px;
+}
+/* Image Styling */
+.responsive-image {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ margin: 20px auto;
+ border-radius: 8px;
+}
+/* Grid Styling for About Secon */
+.grid-container {	
+display: grid;
+ grid-template-columns: repeat(auto-t, minmax(250px, 1fr));
+ gap: 20px;
+ margin-top: 20px;
+}
+.grid-item {
+ background-color: #f0f0f0;
+ padding: 20px;
+ border-radius: 8px;
+}
+/* Contact Secon Styling */
+.contact-list {
+ list-style: none;
+ padding: 0;
+}
+.contact-list li {
+ margin-boom: 10px;
+}
+.contact-link {
+ color: #004d99;
+ text-decoraon: none;
+} 
+contact-link:hover {
+ text-decoraon: underline;
+}
+/* Footer Styling */
+footer {
+ text-align: center;
+ padding: 20px;
+ background-color: #333;
+ color: #f;
+}
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+ nav ul li {
+ display: block;
+ margin: 10px 0;
+ }
+ main {
+ margin: 20px;
+ }
+ .grid-container {
+ grid-template-columns: 1fr;
+ } }
